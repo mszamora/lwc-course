@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="EXERCISE 5">
+        <div class="slds-var-p-horizontal_small">
+            <template if:true={showError}>
+                <lightning-icon icon-name="utility:error" alternative-text="Error!" title="Error" variant="error"></lightning-icon>
+            </template>
+
+            <lightning-button variant="brand" label="Toggle error" onclick={handleClick}
+                class="slds-var-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
