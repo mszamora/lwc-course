@@ -13,6 +13,12 @@
                 <identifier>c_exercise3</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise4</componentName>
+                <identifier>c_exercise4</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
