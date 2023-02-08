@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="EXERCISE 17">
+        <div class="slds-p-horizontal_small">
+            <lightning-input type="text" variant="standard" label="Enter oranges" placeholder="type here..."
+                value={value2} onchange={handleChange}></lightning-input>
+            <c-exercise17></c-exercise17>
+            <p>{orangeMessage}</p>
+        </div>
+        <lightning-button variant="brand" label="Show values" onclick={handleClick} slot="actions"></lightning-button>
+    </lightning-card>
+</template>

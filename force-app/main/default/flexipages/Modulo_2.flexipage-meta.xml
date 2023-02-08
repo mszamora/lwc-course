@@ -25,6 +25,24 @@
                 <identifier>c_exercise7</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise8</componentName>
+                <identifier>c_exercise8</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise10Wrapper</componentName>
+                <identifier>c_exercise10Wrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise14</componentName>
+                <identifier>c_exercise14</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -45,6 +63,30 @@
             <componentInstance>
                 <componentName>exercise7b</componentName>
                 <identifier>c_exercise7b</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise9Wrapper</componentName>
+                <identifier>c_exercise9Wrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise11Wrapper</componentName>
+                <identifier>c_exercise11Wrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise12</componentName>
+                <identifier>c_exercise12</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise13</componentName>
+                <identifier>c_exercise13</identifier>
             </componentInstance>
         </itemInstances>
         <name>column2</name>

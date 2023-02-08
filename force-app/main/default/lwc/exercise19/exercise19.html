@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="EXERCISE 19">
+        <div class="slds-p-horizontal_small">
+            <p>{currentUserLanguage}</p>
+            <p>{myCustomLabel}</p>
+            <p>ViewSetup enabled:{isSetupEnabled}</p>
+        </div>
+        <template if:true={hasPrinterEnabled}>
+            <lightning-button variant="brand" label="Print" onclick={handleClick} slot="actions"></lightning-button>
+        </template>
+    </lightning-card>
+</template>

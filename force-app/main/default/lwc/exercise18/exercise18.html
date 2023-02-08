@@ -1,0 +1,8 @@
+<template>
+    Named slot:<slot name="namedSlot"></slot>
+    Unnamed slot:<slot></slot>
+    <lightning-button variant="neutral" label="this.template.querySelector in child" onclick={showTemplateContent}
+        slot="actions"></lightning-button>
+    <lightning-button variant="neutral" label="this.querySelector in child" onclick={showSlotsContent} slot="actions">
+    </lightning-button>
+</template>
