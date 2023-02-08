@@ -1,7 +1,7 @@
 <template>
     <lightning-card title="EXERCISE 5">
         <div class="slds-var-p-horizontal_small">
-            <template if:true={showError}>
+            <template lwc:if={showError}>
                 <lightning-icon icon-name="utility:error" alternative-text="Error!" title="Error" variant="error"></lightning-icon>
             </template>
 

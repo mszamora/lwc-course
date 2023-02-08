@@ -1,7 +1,7 @@
 <template>
     <lightning-card title="EXERCISE 6">
         <div class="slds-var-p-horizontal_small">
-            <template if:true={fruits} for:each={fruits} for:item="fruit" for:index="index">
+            <template lwc:if={fruits} for:each={fruits} for:item="fruit" for:index="index">
                 <li key={fruit}>
                     {fruit}
                 </li>

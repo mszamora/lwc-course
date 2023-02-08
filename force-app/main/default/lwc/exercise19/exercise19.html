@@ -5,7 +5,7 @@
             <p>{myCustomLabel}</p>
             <p>ViewSetup enabled:{isSetupEnabled}</p>
         </div>
-        <template if:true={hasPrinterEnabled}>
+        <template lwc:if={hasPrinterEnabled}>
             <lightning-button variant="brand" label="Print" onclick={handleClick} slot="actions"></lightning-button>
         </template>
     </lightning-card>
