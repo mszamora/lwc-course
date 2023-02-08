@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="EXERCISE 19C">
+
+        <div class="slds-p-horizontal_small">
+            PARENT<br>
+            <template lwc:if={showChild}>
+                <c-exercise19c1></c-exercise19c1>
+            </template>
+        </div>
+        <lightning-button variant="brand" label="Hide Childs" onclick={handleClick} slot="actions"></lightning-button>
+    </lightning-card>
+</template>
