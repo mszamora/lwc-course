@@ -230,6 +230,18 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentName>exercise29</componentName>
+                <identifier>c_exercise29</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise31</componentName>
+                <identifier>c_exercise31</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
                     <value>sidebartabs</value>
