@@ -13,6 +13,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>LWC Course</label>
     <navType>Standard</navType>
+    <tabs>Module_4</tabs>
     <tabs>Modulo_3</tabs>
     <tabs>Modulo_2</tabs>
     <uiType>Lightning</uiType>

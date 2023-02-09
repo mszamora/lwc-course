@@ -13,6 +13,18 @@
                 <identifier>c_exercise18Wrapper</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise19cWrapper</componentName>
+                <identifier>c_exercise19cWrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise20bWrapper</componentName>
+                <identifier>c_exercise20bWrapper</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -27,6 +39,18 @@
             <componentInstance>
                 <componentName>exercise19</componentName>
                 <identifier>c_exercise19</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise19bWrapper</componentName>
+                <identifier>c_exercise19bWrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise20Wrapper</componentName>
+                <identifier>c_exercise20Wrapper</identifier>
             </componentInstance>
         </itemInstances>
         <name>column2</name>
