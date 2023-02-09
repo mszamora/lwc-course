@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="EXERCISE 22 SUBSCRIBER">
+        <div class="slds-m-around_medium">
+            <lightning-button label="Subscribe" onclick={handleSubscribe}></lightning-button>
+            <lightning-button label="Unsubscribe" onclick={handleUnsubscribe}></lightning-button>
+            <p>Message Received</p>
+            <lightning-formatted-text value={receivedMessage}></lightning-formatted-text>
+        </div>
+    </lightning-card>
+</template>
