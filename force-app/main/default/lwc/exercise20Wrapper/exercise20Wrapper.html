@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="EXERCISE 20">
+        <div class="slds-p-horizontal_small">
+            <template lwc:if={error}>
+                <p>Error: {error}</p>
+                <p>Info: {stack}</p>
+            </template>
+            <template lwc:else>
+                <c-exercise20></c-exercise20>
+            </template>
+        </div>
+    </lightning-card>
+</template>
