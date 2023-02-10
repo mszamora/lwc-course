@@ -12,7 +12,11 @@ export default class Exercise25 extends LightningElement {
     objectInfo;
 
     get objectInfoSerialized(){
-        return JSON.stringify(this.objectInfo,null,2);
+        return JSON.stringify(this.objectInfo.data,null,2);
+    }
+
+    get errorSerialized(){
+        return JSON.stringify(this.objectInfo.error,null,2); 
     }
 
     handleClick(){
@@ -21,6 +25,10 @@ export default class Exercise25 extends LightningElement {
         }else{
             this.objectName = ACCOUNT_OBJECT;
         }
+    }
+
+    handleErrorClick(){
+        this.objectName ="OBJETOERROR";
     }
 
 }

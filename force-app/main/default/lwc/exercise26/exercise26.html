@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="EXERCISE 26">
+        <lightning-button label="Toggle field" onclick={handleClick} slot="actions"></lightning-button>
+        <lightning-button variant="destructive" label="Force error" onclick={handleErrorClick} slot="actions"></lightning-button>
+    
+        <div class="slds-p-horizontal_small">
+            <template lwc:if={error}>
+                <h1>Error Picklist Values</h1>
+                <template for:each={error.body} for:item="error">
+                    <p key={error.errorCode}>Error Message: {error.message}</p>
+                    <p key={error.errorCode}>Error Code: {error.errorCode}</p>
+                </template>
+            </template>
+            <template lwc:else>
+                <div class="slds-scrollable" style="height: 10rem; width: 50rem;">
+                    <pre>{fieldPicklistValues}</pre>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
