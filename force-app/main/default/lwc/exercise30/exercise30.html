@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="EXERCISE 30">
+        <div class="slds-var-p-horizontal_small">
+            <template if:true={accounts}>
+                <ul>
+                    <template for:each={accounts} for:item="account">
+                        <li key={account.Id}>{account.Name}</li>
+                    </template>
+                </ul>
+            </template>
+            <template if:true={error}>
+                {accounts.error.body.message}
+            </template>
+        </div>
+    </lightning-card>
+</template>

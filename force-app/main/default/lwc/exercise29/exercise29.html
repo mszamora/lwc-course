@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="EXERCISE 29">
+        <div class="slds-p-horizontal_small">
+            <lightning-record-view-form record-id={recordId} object-api-name={accountObject}>
+                <lightning-messages> </lightning-messages>
+                Account Name: <span>{nameValue}</span><br />
+                Description: <span>{descriptionValue}</span>
+            </lightning-record-view-form>
+        </div>
+    </lightning-card>
+</template>

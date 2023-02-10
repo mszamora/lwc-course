@@ -19,10 +19,14 @@ export default class Exercise26 extends LightningElement {
       fieldApiName: "$objectField"
     })
     setPicklistValues({ error, data }) {
-      this.fieldPicklistValues = JSON.stringify(data, null, 2);
-      this.error = error;
-      console.log('Error-->'+JSON.stringify(error));
-      console.log('Data-->'+JSON.stringify(data));
+      if (error){
+        this.fieldPicklistValues = null;
+        this.error = error;
+      }
+      if (data){
+        this.error = null;
+        this.fieldPicklistValues = JSON.stringify(data, null, 2);
+      }
     }
 
     handleClick() {
@@ -36,7 +40,7 @@ export default class Exercise26 extends LightningElement {
       }
 
     handleErrorClick(){
-      this.objectName = "ERROROBJETO";
+      //this.objectName = "ERROROBJETO";
       this.objectField ="FIELDERROR";
     }
 }

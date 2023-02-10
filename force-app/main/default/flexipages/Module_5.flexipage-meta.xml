@@ -7,10 +7,68 @@
                 <identifier>c_exercise24</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise25</componentName>
+                <identifier>c_exercise25</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>myStringProperty</name>
+                    <value>Bootcamp test</value>
+                </componentInstanceProperties>
+                <componentName>exercise31</componentName>
+                <identifier>c_exercise31</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise33</componentName>
+                <identifier>c_exercise33</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise26</componentName>
+                <identifier>c_exercise26</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise27</componentName>
+                <identifier>c_exercise27</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise28</componentName>
+                <identifier>c_exercise28</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise30</componentName>
+                <identifier>c_exercise30</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise32</componentName>
+                <identifier>c_exercise32</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>exercise32b</componentName>
+                <identifier>c_exercise32b</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>

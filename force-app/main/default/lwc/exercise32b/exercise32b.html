@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="EXERCISE 32B">
+        <lightning-button slot="actions" label="Toggle panel" onclick={handleClick}></lightning-button>
+        <div class="slds-p-horizontal_small">
+            <template if:true={showPanel}>
+                Panel content
+            </template>
+        </div>
+    </lightning-card>
+</template>
