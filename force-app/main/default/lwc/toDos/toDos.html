@@ -1,0 +1,27 @@
+<template>
+    <lightning-card  variant="Narrow"  title="List of Todos" icon-name="standard:account">
+        List of ToDos:
+        <template lwc:if={hasTodos} for:each={todosList} for:item="todo">
+            <div key={todo.id}>{todo.text}</div>
+        </template>
+        <lightning-input
+            label="New Todo"
+            type="text"
+            onchange={handleUpdatedText}
+        >
+        </lightning-input>
+        <lightning-button slot="actions"
+            label="Add Todo"
+            title="Add a new todo"
+            onclick={handleAddTodo}
+        >
+        </lightning-button>
+        <lightning-button slot="actions"
+            label="Go Next"
+            variant="brand"
+            title="Finish todos, go next"
+            onclick={handleGoNext}
+        >
+        </lightning-button>
+    </lightning-card>
+</template>
